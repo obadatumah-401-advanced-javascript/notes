@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage --verbose"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,8 @@
   "homepage": "https://github.com/obadatumah-401-advanced-javascript/notes#readme",
   "dependencies": {
     "minimist": "^1.2.5"
+  },
+  "devDependencies": {
+    "jest": "^26.0.1"
   }
 }
