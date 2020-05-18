@@ -6,7 +6,7 @@
 
 ### Links and Resources
 
-- [submission PR](http://xyz.com)
+- [submission PR](https://github.com/obadatumah-401-advanced-javascript/notes/pull/4)
 
 #### How to initialize/run your application (where applicable)
 
@@ -21,4 +21,4 @@
 
 #### UML
 
-![uml](assets\class02.png)
+![uml img](assets\class02.png)
