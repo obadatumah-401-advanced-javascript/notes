@@ -18,19 +18,19 @@ describe('execute()', () => {
     });
 });
 
-describe('add()', () => {
+// describe('add()', () => {
 
     
-    it('logs the output message when add function is invoked with a valid note', () => {
-        const createNote = new Notes();
-        createNote.add({ payload: 'my first test' });
-        expect(console.log).toHaveBeenCalled();
-    });
+//     it('logs the output message when add function is invoked with a valid note', () => {
+//         const createNote = new Notes();
+//         createNote.add({ payload: 'my first test' });
+//         expect(console.log).toHaveBeenCalled();
+//     });
 
-    it('Do nothing when add function is invoked with invalid note', () => {
-        const createNote = new Notes();
-        createNote.add();
-        expect(console.log).not.toHaveBeenCalled();
-    });
+//     it('Do nothing when add function is invoked with invalid note', () => {
+//         const createNote = new Notes();
+//         createNote.add();
+//         expect(console.log).not.toHaveBeenCalled();
+//     });
 
-});
+// });
