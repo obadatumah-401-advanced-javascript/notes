@@ -1,14 +1,21 @@
-'use strict'
+'use strict';
 
-const Input = require('./lib/input') 
+const Input = require('./lib/input.js');
+const Notes = require('./lib/notes.js');
 
-const Notes = require('./lib/notes') 
+let noteInput = new Input();
+let createdNote = new Notes(noteInput);
 
+if (noteInput.action === 'add') {
+  createdNote.add(noteInput);
+}
 
-let createNote = new Input();
-// console.log('hhhhhhhh',createNote);
-let newNote = new Notes(createNote);
+else if (noteInput.action === 'list') {
+  createdNote.list(noteInput);
+}
 
-newNote.execute(createNote);
-newNote.add(createNote);
+else if (noteInput.action === 'delete') {
+  createdNote.delete(noteInput);
+}
 
+createdNote.execute(noteInput);
