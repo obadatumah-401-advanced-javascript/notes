@@ -6,7 +6,7 @@
 
 ### Links and Resources
 
-- [submission PR](http://xyz.com)
+- [submission PR](https://github.com/obadatumah-401-advanced-javascript/notes/pull/5)
 
 #### How to initialize/run your application (where applicable)
 
