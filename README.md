@@ -24,6 +24,6 @@
 
 #### UML
 
-![uml](assets\class02.png)
+![uml](assets/class02.png)
 
-![uml](assets\class03.png)
+![uml](assets/class03.png)
