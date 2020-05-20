@@ -11,7 +11,7 @@ describe('valid()', () => {
     it('respects a proper object', () => {
         const noteInput = new Input();
         console.log(noteInput);
-        expect(noteInput.valid(noteInput.argv2)).toBeTruthy();
+        expect(noteInput.valid(noteInput.argvProp)).toBeTruthy();
     });
 
     it('reject invalid object', () => {

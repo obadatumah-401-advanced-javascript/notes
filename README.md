@@ -1,4 +1,4 @@
-# LAB - Class 02
+# LAB - lab-03
 
 ## Project: Notes
 
@@ -11,14 +11,19 @@
 #### How to initialize/run your application (where applicable)
 
 - npm test -- FILE NAME HERE
+- node index.js (--add || --list || --delete) 
 
 #### How to use your library (where applicable)
 - i used jest (install it and put it inside package.json)
+- i used mongoDB and mongoose 
 #### Tests
 
 - npm test
 - npm test -- FILE NAME HERE
+- node index.js (--add || --list || --delete)
 
 #### UML
 
 ![uml](assets\class02.png)
+
+![uml](assets\class03.png)
